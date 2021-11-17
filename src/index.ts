@@ -1,3 +1,3 @@
 import trim from "./trim";
 
-export { trim };
+export default { trim };

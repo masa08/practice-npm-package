@@ -56,6 +56,7 @@ export default [
       }),
       pluginBabel({
         babelHelpers: "bundled",
+        // eslint-disable-next-line no-undef
         configFile: path.resolve(__dirname, ".babelrc.js"),
       }),
       pluginNodeResolve({
@@ -88,6 +89,7 @@ export default [
       }),
       pluginBabel({
         babelHelpers: "bundled",
+        // eslint-disable-next-line no-undef
         configFile: path.resolve(__dirname, ".babelrc.js"),
       }),
       pluginNodeResolve({
@@ -119,6 +121,7 @@ export default [
       }),
       pluginBabel({
         babelHelpers: "bundled",
+        // eslint-disable-next-line no-undef
         configFile: path.resolve(__dirname, ".babelrc.js"),
       }),
       pluginNodeResolve({
